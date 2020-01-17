@@ -50,3 +50,112 @@ body{
 .page-header > nav > ul > li:hover > a{
     color: #000000;
 }
+.main-section{
+    height: calc(100vh - 70px);
+}
+.main-section__content{
+    height: 40%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-section__content > button{
+    background: #08A6E4;
+    border-radius: 40px;
+    padding: 23px 157px;
+    border-style: none;
+    margin: 10px;
+}
+.main-section__content > button > a{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.main-section__content > h1{
+    font-size: 49px;
+    font-weight: 400;
+    margin-top: 130px;
+    line-height: 59px;
+}
+.main-section__content > p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 20px;
+}
+.main-section__photo{
+    background: url("../img/Background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 60%;
+}
+.first-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100%;
+}
+.first-section > h2{
+    font-size: 36px;
+    line-height: 43px;
+    margin: 50px;
+}
+.first-section__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+.first-section__content__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: calc((100% / 3) - 40px);
+    margin: 20px;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+}
+.red{
+    background: #FB3B64;
+}
+.blue{
+    background: #08A6E4;
+}
+.green{
+    background: #55DFB4;
+}
+.red > img, .green > img{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+.blue > img{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+.first-section__content__item span:first-of-type{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: black;
+    margin-top: 10px;
+}
+.first-section__content__item span:last-of-type{
+    font-size: 17px;
+    line-height: 19px;
+    color: #A5A5A5;
+    margin-top: 15px;
+    width: 50%;
+    text-align: center;
+}
